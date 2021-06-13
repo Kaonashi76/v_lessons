@@ -9,10 +9,16 @@
 </head>
 <body>
   <div class="container">
-
-    <button class="button__header button gradient__header">Создать колонку</button>
-
-
+    <div class="сolumn">
+      <div class="col-header gradient__header" contenteditable>Write column title</div>
+        <div class="task_container">
+          <div class="task" draggable="true"> 
+            <p class="task__name" contenteditable="">What do you call your task?</p> 
+          </div>
+        </div>
+      <button class="button button__footer">New task</button>
+    </div>
+    <button class="button__header button gradient__header">New column</button>
   </div>
   <script src="./app.js"></script>
 </body>
