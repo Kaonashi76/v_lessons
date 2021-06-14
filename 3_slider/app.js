@@ -42,5 +42,5 @@ function changeSlide(activeSlideIndex){
   mainSlide.style.transform = `translateY(-${slideIndex * containerHeight}px)`;
   sidebar.style.transform= `translateY(${slideIndex * containerHeight}px)`;
 
-  //interval = sliderInterval()
+  interval = sliderInterval()
 }
